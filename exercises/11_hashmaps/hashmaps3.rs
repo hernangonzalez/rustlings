@@ -45,7 +45,6 @@ fn build_scores_table(results: String) -> HashMap<String, Team> {
                 team.goals_conceded += c;
             } else {
                 scores.insert(name.clone(), Team {
-                    name: name,
                     goals_scored: s,
                     goals_conceded: c
                 });
